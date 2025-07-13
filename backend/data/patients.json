@@ -1,0 +1,232 @@
+[
+  {
+    "patient_name": "Rajesh Kumar",
+    "discharge_date": "2025-07-01",
+    "primary_diagnosis": "Hypertensive Nephropathy",
+    "medications": "Amlodipine 5mg daily; Losartan 50mg daily",
+    "dietary_restrictions": "Low salt (2g/day), fluid restriction (1.5L/day)",
+    "follow_up": "Nephrology OPD in 1 week",
+    "warning_signs": "Dizziness, leg swelling, chest discomfort",
+    "discharge_instructions": "Monitor blood pressure daily, avoid salty foods"
+  },
+  {
+    "patient_name": "Sunita Sharma",
+    "discharge_date": "2025-06-25",
+    "primary_diagnosis": "Diabetic Nephropathy",
+    "medications": "Metformin 500mg twice daily; Telmisartan 40mg daily",
+    "dietary_restrictions": "Low potassium, diabetic diet",
+    "follow_up": "Endocrinology and Nephrology in 2 weeks",
+    "warning_signs": "Blurry vision, decreased urine, ankle swelling",
+    "discharge_instructions": "Check blood sugar and blood pressure daily"
+  },
+  {
+    "patient_name": "Anil Mehta",
+    "discharge_date": "2025-07-05",
+    "primary_diagnosis": "Chronic Kidney Disease Stage 4",
+    "medications": "Furosemide 40mg daily; Calcium acetate 667mg with meals",
+    "dietary_restrictions": "Low protein, low sodium",
+    "follow_up": "Nephrology clinic in 10 days",
+    "warning_signs": "Shortness of breath, fatigue, confusion",
+    "discharge_instructions": "Follow renal diet strictly, keep fluid intake under 1L/day"
+  },
+  {
+    "patient_name": "Priya Iyer",
+    "discharge_date": "2025-06-30",
+    "primary_diagnosis": "IgA Nephropathy",
+    "medications": "Prednisolone 20mg daily; Enalapril 10mg daily",
+    "dietary_restrictions": "Low sodium, moderate protein",
+    "follow_up": "Nephrology OPD in 2 weeks",
+    "warning_signs": "Fever, blood in urine, facial swelling",
+    "discharge_instructions": "Take steroids as prescribed, avoid NSAIDs"
+  },
+  {
+    "patient_name": "Ravi Patel",
+    "discharge_date": "2025-07-03",
+    "primary_diagnosis": "Acute Kidney Injury (Post-infectious)",
+    "medications": "Norfloxacin 400mg twice daily; Pantoprazole 40mg daily",
+    "dietary_restrictions": "Low potassium diet",
+    "follow_up": "Repeat creatinine in 5 days",
+    "warning_signs": "Vomiting, dark urine, abdominal pain",
+    "discharge_instructions": "Hydrate well, avoid nephrotoxic drugs"
+  },
+  {
+    "patient_name": "Neha Verma",
+    "discharge_date": "2025-07-10",
+    "primary_diagnosis": "CKD Stage 3b",
+    "medications": "Lisinopril 10mg daily; Iron sucrose IV weekly",
+    "dietary_restrictions": "Low salt, high-fiber renal diet",
+    "follow_up": "Dietitian + Nephrologist in 2 weeks",
+    "warning_signs": "Paleness, low energy, decreased urine",
+    "discharge_instructions": "Iron injections at local PHC, avoid high-phosphorus food"
+  },
+  {
+    "patient_name": "Amitabh Das",
+    "discharge_date": "2025-07-04",
+    "primary_diagnosis": "Polycystic Kidney Disease",
+    "medications": "Tolvaptan 45mg AM, 15mg PM; Paracetamol if pain",
+    "dietary_restrictions": "Fluid restriction (2L/day), avoid caffeine",
+    "follow_up": "Ultrasound in 4 weeks",
+    "warning_signs": "Flank pain, bloody urine, persistent headache",
+    "discharge_instructions": "Strict medication adherence, monitor weight weekly"
+  },
+  {
+    "patient_name": "Meena Joshi",
+    "discharge_date": "2025-06-28",
+    "primary_diagnosis": "Membranous Nephropathy",
+    "medications": "Tacrolimus 1mg twice daily; Prednisolone 10mg daily",
+    "dietary_restrictions": "Low salt, low cholesterol",
+    "follow_up": "Nephrology review after 1 week",
+    "warning_signs": "Weight gain, foamy urine, joint pain",
+    "discharge_instructions": "Take immunosuppressants with food, avoid infection exposure"
+  },
+  {
+    "patient_name": "Vikram Singh",
+    "discharge_date": "2025-07-07",
+    "primary_diagnosis": "CKD with anemia",
+    "medications": "Erythropoietin injection weekly; Ferrous ascorbate 100mg daily",
+    "dietary_restrictions": "High iron foods, low phosphorus",
+    "follow_up": "Hemoglobin check in 10 days",
+    "warning_signs": "Dizziness, fast heartbeat, shortness of breath",
+    "discharge_instructions": "Take iron with orange juice, avoid tea after meals"
+  },
+  {
+    "patient_name": "Rashmi Gupta",
+    "discharge_date": "2025-07-02",
+    "primary_diagnosis": "Acute Interstitial Nephritis",
+    "medications": "Prednisolone 40mg daily; Ranitidine 150mg twice daily",
+    "dietary_restrictions": "Regular diet with fluid monitoring",
+    "follow_up": "Serum creatinine in 1 week",
+    "warning_signs": "Fever, rash, joint swelling",
+    "discharge_instructions": "Avoid NSAIDs, report any allergic symptoms"
+  },
+  {
+    "patient_name": "Snehal Patil",
+    "discharge_date": "2025-07-09",
+    "primary_diagnosis": "Chronic Kidney Disease Stage 3",
+    "medications": [
+      "Telmisartan 40mg daily",
+      "Calcium carbonate 500mg twice daily"
+    ],
+    "dietary_restrictions": "Low sodium (2g/day), low phosphorus",
+    "follow_up": "Nephrology OPD at Sassoon Hospital in 10 days",
+    "warning_signs": "Swelling, dizziness, decreased urine output",
+    "discharge_instructions": "Monitor blood pressure daily, avoid processed foods"
+  },
+  {
+    "patient_name": "Sachin Jadhav",
+    "discharge_date": "2025-07-05",
+    "primary_diagnosis": "Acute Glomerulonephritis",
+    "medications": [
+      "Prednisolone 30mg daily",
+      "Enalapril 5mg daily"
+    ],
+    "dietary_restrictions": "Low sodium, moderate fluid intake",
+    "follow_up": "Nephrology clinic, Pune in 1 week",
+    "warning_signs": "Blood in urine, facial swelling",
+    "discharge_instructions": "Complete steroid course, rest well"
+  },
+  {
+    "patient_name": "Varsha Shinde",
+    "discharge_date": "2025-07-06",
+    "primary_diagnosis": "CKD with Hypertension",
+    "medications": [
+      "Amlodipine 5mg daily",
+      "Furosemide 40mg daily"
+    ],
+    "dietary_restrictions": "Salt-restricted diet (2g/day), fluid 1.5L/day",
+    "follow_up": "Taluka Hospital Nephrology in 2 weeks",
+    "warning_signs": "Shortness of breath, leg swelling",
+    "discharge_instructions": "Daily BP check, avoid pickles and papad"
+  },
+  {
+    "patient_name": "Yogesh Deshmukh",
+    "discharge_date": "2025-07-03",
+    "primary_diagnosis": "Stage 4 CKD",
+    "medications": [
+      "Sodium bicarbonate 500mg BID",
+      "Sevelamer 800mg TID"
+    ],
+    "dietary_restrictions": "Low potassium, low phosphorus",
+    "follow_up": "Nephrology consult at Nashik Civil Hospital in 2 weeks",
+    "warning_signs": "Confusion, irregular heartbeat",
+    "discharge_instructions": "Limit dairy, avoid coconut water"
+  },
+  {
+    "patient_name": "Kalpana Kulkarni",
+    "discharge_date": "2025-07-04",
+    "primary_diagnosis": "Diabetic Kidney Disease",
+    "medications": [
+      "Metformin 500mg BID",
+      "Losartan 50mg daily"
+    ],
+    "dietary_restrictions": "Low sugar, low protein",
+    "follow_up": "Endocrinology + Nephrology joint clinic, Mumbai in 1 week",
+    "warning_signs": "Tiredness, swollen feet, increased thirst",
+    "discharge_instructions": "Avoid sweets, walk daily"
+  },
+  {
+    "patient_name": "Shubham Bhosale",
+    "discharge_date": "2025-06-30",
+    "primary_diagnosis": "Minimal Change Disease",
+    "medications": [
+      "Prednisolone 60mg daily",
+      "Calcium-D3 supplement"
+    ],
+    "dietary_restrictions": "Low salt, normal fluids",
+    "follow_up": "Pediatric Nephrology in 1 week",
+    "warning_signs": "Swelling, frothy urine, fever",
+    "discharge_instructions": "Monitor weight daily, avoid school for a week"
+  },
+  {
+    "patient_name": "Swati Chavan",
+    "discharge_date": "2025-07-08",
+    "primary_diagnosis": "CKD Stage 5 (on dialysis)",
+    "medications": [
+      "Erythropoietin injection weekly",
+      "Iron tablets"
+    ],
+    "dietary_restrictions": "Fluid <1L/day, low potassium",
+    "follow_up": "Dialysis center, Thane every 2 days",
+    "warning_signs": "Breathing difficulty, weight gain",
+    "discharge_instructions": "Track dry weight, avoid raw fruits"
+  },
+  {
+    "patient_name": "Nitin Gawande",
+    "discharge_date": "2025-07-02",
+    "primary_diagnosis": "Renal Calculi with Obstruction",
+    "medications": [
+      "Tamsulosin 0.4mg daily",
+      "Diclofenac SOS"
+    ],
+    "dietary_restrictions": "High fluid intake, avoid oxalate-rich food",
+    "follow_up": "Urology follow-up at district hospital",
+    "warning_signs": "Pain, fever, no urine",
+    "discharge_instructions": "Drink 2.5\u20133L/day, avoid spinach and nuts"
+  },
+  {
+    "patient_name": "Manasi Gokhale",
+    "discharge_date": "2025-07-01",
+    "primary_diagnosis": "Lupus Nephritis",
+    "medications": [
+      "Mycophenolate 500mg BID",
+      "Hydroxychloroquine 200mg"
+    ],
+    "dietary_restrictions": "Normal diet with low salt",
+    "follow_up": "Rheumatology + Nephrology in 2 weeks",
+    "warning_signs": "Joint pain, fever, decreased urine",
+    "discharge_instructions": "Avoid sun, continue meds even if better"
+  },
+  {
+    "patient_name": "Ajit Pawar",
+    "discharge_date": "2025-06-29",
+    "primary_diagnosis": "CKD with Osteodystrophy",
+    "medications": [
+      "Calcitriol 0.25mcg daily",
+      "Phosphate binder"
+    ],
+    "dietary_restrictions": "Low phosphorus, calcium-rich foods",
+    "follow_up": "Bone DEXA scan in 3 months",
+    "warning_signs": "Bone pain, fractures, muscle cramps",
+    "discharge_instructions": "Take medications after meals, regular exercise advised"
+  }
+]
