@@ -4,6 +4,7 @@ from sentence_transformers import SentenceTransformer
 from ingestion.chunking import chunk_pdf
 from qdrant_client import QdrantClient
 from qdrant_client.models import PointStruct, VectorParams, Distance
+from src.config import settings
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -50,8 +51,8 @@ def process_pdf_embeddings(pdf_path):
     # --- Qdrant Vector Store Integration ---
     print("Connecting to Qdrant...")
     client = QdrantClient(
-        url=os.getenv("QDRANT_URL"),
-        api_key=os.getenv("QDRANT_API_KEY"),
+        url=settings.QDRANT_URL,
+        api_key=settings.QDRANT_API_KEY,
         timeout=60.0  # increase timeout
     )
 
