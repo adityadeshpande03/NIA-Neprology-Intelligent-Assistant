@@ -1,4 +1,5 @@
 google-genai
+black
 python-dotenv
 langchain
 langchain-community
