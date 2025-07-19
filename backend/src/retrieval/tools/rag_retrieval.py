@@ -1,5 +1,5 @@
 import os
-from sentence_transformers import SentenceTransformer
+from ...models.embedding_model import embedding_model
 from qdrant_client import QdrantClient
 from src.config import settings
 from dotenv import load_dotenv
@@ -8,7 +8,7 @@ load_dotenv()
 
 def retrieve_similar_chunks(query, top_k=5):
     print("Loading embedding model...")
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = embedding_model
     print("Encoding query...")
     query_embedding = model.encode([query])[0]
 
@@ -16,7 +16,7 @@ def retrieve_similar_chunks(query, top_k=5):
     client = QdrantClient(
         url=settings.QDRANT_URL,
         api_key=settings.QDRANT_API_KEY,
-        timeout=60.0
+        timeout=60
     )
 
     collection_name = "nephrology_embeddings"

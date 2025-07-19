@@ -1,7 +1,7 @@
 import os
 import time
-from sentence_transformers import SentenceTransformer
-from ingestion.chunking import chunk_pdf
+from ..models.embedding_model import embedding_model
+from ingestion.chunking import Chunking
 from qdrant_client import QdrantClient
 from qdrant_client.models import PointStruct, VectorParams, Distance
 from src.config import settings
@@ -32,7 +32,8 @@ def upload_in_batches(client, collection_name, points, batch_size=500):
 
 def process_pdf_embeddings(pdf_path):
     print("Starting PDF chunking...")
-    chunks = chunk_pdf(pdf_path)
+    chunking = Chunking()
+    chunks = chunking.chunk_pdf(pdf_path)
     print(f"Chunking complete. Number of chunks: {len(chunks)}")
 
     print("Extracting text from chunks...")
@@ -40,7 +41,7 @@ def process_pdf_embeddings(pdf_path):
     print(f"Text extraction complete. Number of texts: {len(texts)}")
 
     print("Loading Hugging Face embedding model...")
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = embedding_model
     print("Model loaded.")
 
     print("Generating embeddings for each chunk...")
@@ -53,7 +54,7 @@ def process_pdf_embeddings(pdf_path):
     client = QdrantClient(
         url=settings.QDRANT_URL,
         api_key=settings.QDRANT_API_KEY,
-        timeout=60.0  # increase timeout
+        timeout=60  # increase timeout
     )
 
     collection_name = "nephrology_embeddings"
