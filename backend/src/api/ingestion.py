@@ -4,6 +4,8 @@ from src.ingestion.embeddings import process_pdf_embeddings
 
 app = FastAPI(title="NIA AI Data Ingestion API")
 
+
+
 class PDFRequest(BaseModel):
     pdf_path: str
 
